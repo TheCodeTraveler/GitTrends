@@ -58,6 +58,6 @@
     <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
     <PackageVersion Include="Syncfusion.Maui.Charts" Version="27.1.56" />
     <PackageVersion Include="System.Formats.Asn1" Version="9.0.0" />
-    <PackageVersion Include="System.Text.Json" Version="9.0.0" />    
+    <PackageVersion Include="System.Text.Json" Version="9.0.2" />    
   </ItemGroup>
 </Project>
