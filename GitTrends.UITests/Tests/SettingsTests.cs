@@ -205,7 +205,8 @@ namespace GitTrends.UITests
 				//Act
 				RepositoryPage.TapSettingsButton();
 				await SettingsPage.WaitForPageToLoad().ConfigureAwait(false);
-			};
+			}
+			;
 
 			async Task login()
 			{
