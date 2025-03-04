@@ -68,7 +68,8 @@ class GetTestToken(GitHubApiV3Service gitHubApiV3Service,
 
 				return errorResponse;
 			}
-		};
+		}
+		;
 
 		var notFoundResponse = req.CreateResponse(HttpStatusCode.NotFound);
 		await notFoundResponse.WriteStringAsync("No Valid GitHub Token Found").ConfigureAwait(false);
