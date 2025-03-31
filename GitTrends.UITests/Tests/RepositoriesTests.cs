@@ -188,7 +188,8 @@ namespace GitTrends.UITests
 					break;
 				default:
 					throw new NotSupportedException();
-			};
+			}
+			;
 		}
 
 		[Test]
