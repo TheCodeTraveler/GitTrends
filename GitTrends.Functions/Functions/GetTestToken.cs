@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Net.Http.Headers;
 using GitHubApiStatus;
 using GitTrends.Common;
@@ -69,7 +69,6 @@ class GetTestToken(GitHubApiV3Service gitHubApiV3Service,
 				return errorResponse;
 			}
 		}
-		;
 
 		var notFoundResponse = req.CreateResponse(HttpStatusCode.NotFound);
 		await notFoundResponse.WriteStringAsync("No Valid GitHub Token Found").ConfigureAwait(false);
