@@ -5,7 +5,7 @@ variables:
   PathToUITestsCsproj: "GitTrends.UITests/GitTrends.UITests.csproj"
   PathToUnitTestsCsproj: "GitTrends.UnitTests/GitTrends.UnitTests.csproj"
   PathToAzureFunctionsCsproj: "GitTrends.Functions/GitTrends.Functions.csproj"
-  XcodeVersion: "16.2"
+  XcodeVersion: "16.3"
 
 trigger:
   branches:
