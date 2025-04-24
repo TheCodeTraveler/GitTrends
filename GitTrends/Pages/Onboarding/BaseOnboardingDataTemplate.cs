@@ -41,19 +41,19 @@ public abstract class BaseOnboardingDataTemplate(
 		Func<View> createImageView,
 		Func<TitleLabel> createTitleLabel,
 		Func<View> createDescriptionBodyView) => new Grid()
-	{
-		BackgroundColor = backgroundColor,
+		{
+			BackgroundColor = backgroundColor,
 
-		RowDefinitions = Rows.Define(
+			RowDefinitions = Rows.Define(
 			(Row.Image, Stars(GetImageRowStarHeight(deviceInfo))),
 			(Row.Description, Stars(GetDescriptionRowStarHeight(deviceInfo))),
 			(Row.Indicator, 44)),
 
-		ColumnDefinitions = Columns.Define(
+			ColumnDefinitions = Columns.Define(
 			(Column.Indicator, Star),
 			(Column.Button, Star)),
 
-		Children =
+			Children =
 		{
 			new OpacityOverlay()
 				.Row(Row.Image).ColumnSpan(All<Column>()),
@@ -80,7 +80,7 @@ public abstract class BaseOnboardingDataTemplate(
 			new NextLabel(nextButtonText)
 				.Row(Row.Indicator).Column(Column.Button),
 		}
-	}.Bind(Grid.WidthRequestProperty,
+		}.Bind(Grid.WidthRequestProperty,
 		nameof(Page.Width),
 		mode: BindingMode.OneWay,
 		source: new RelativeBindingSource(RelativeBindingSourceMode.FindAncestor, typeof(Page)));
@@ -151,9 +151,9 @@ public abstract class BaseOnboardingDataTemplate(
 			AutomationId = OnboardingAutomationIds.NextButon;
 
 			GestureRecognizers.Add(new TapGestureRecognizer
-				{
-					CommandParameter = text
-				}
+			{
+				CommandParameter = text
+			}
 				.Bind(TapGestureRecognizer.CommandProperty,
 					nameof(OnboardingViewModel.HandleDemoButtonTappedCommand),
 					source: new RelativeBindingSource(RelativeBindingSourceMode.FindAncestorBindingContext,

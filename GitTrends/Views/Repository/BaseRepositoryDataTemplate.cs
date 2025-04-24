@@ -113,7 +113,7 @@ abstract class BaseRepositoryDataTemplate : DataTemplate
 			Content = new Grid
 			{
 				BackgroundColor = Colors.Transparent,
-				
+
 				InputTransparent = true,
 
 				RowSpacing = 0,
@@ -308,7 +308,7 @@ abstract class BaseRepositoryDataTemplate : DataTemplate
 					// When `Width is -1`, .NET MAUI hasn't inflated the View
 					// Allow .NET MAUI to inflate the view, then validate its Width
 					return (isTrending || isFavorite is true)
-					       && (width is -1 || isWidthValid(width));
+						   && (width is -1 || isWidthValid(width));
 				}
 			}
 		}
@@ -326,7 +326,7 @@ abstract class BaseRepositoryDataTemplate : DataTemplate
 
 			HorizontalTextAlignment = TextAlignment.Start;
 			VerticalTextAlignment = TextAlignment.End;
-			
+
 			HorizontalOptions = LayoutOptions.Start;
 			VerticalOptions = LayoutOptions.Center;
 
