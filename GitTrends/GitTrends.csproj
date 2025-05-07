@@ -102,6 +102,7 @@
     <PackageReference Include="sqlite-net-pcl" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" />
     <PackageReference Include="Syncfusion.Maui.Charts" />
+    <PackageReference Include="Syncfusion.Maui.ListView" />
   </ItemGroup>
 
   <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
