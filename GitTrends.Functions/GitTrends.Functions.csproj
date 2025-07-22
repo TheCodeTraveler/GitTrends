@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="GitHubApiStatus.Extensions" />
-    <PackageReference Include="Microsoft.Azure.Functions.Worker"  />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Timer" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" OutputItemType="Analyzer" />

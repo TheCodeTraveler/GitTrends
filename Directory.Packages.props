@@ -16,18 +16,18 @@
     <PackageVersion Include="GitHubApiStatus" Version="4.0.0" />
     <PackageVersion Include="GitHubApiStatus.Extensions" Version="4.0.0" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.12.1" />
-    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.5" />
-    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.7.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="9.0.4" />
     <PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="2.0.0" />
     <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.3.0" />
     <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Timer" Version="4.3.1" />
-    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.4" OutputItemType="Analyzer" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.5" OutputItemType="Analyzer" />
     <PackageVersion Include="Microsoft.Azure.NotificationHubs" Version="4.2.0" />
-    <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.3.4" />
+    <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.3.5" />
     <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.60" />
     <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.60" />
-    <PackageVersion Include="Microsoft.Maui.Essentials" Version="9.0.70" />
+    <PackageVersion Include="Microsoft.Maui.Essentials" Version="9.0.90" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
