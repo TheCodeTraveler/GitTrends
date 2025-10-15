@@ -35,7 +35,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <EnableSGenConc>true</EnableSGenConc>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development</CodesignKey>
     <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
 
@@ -45,7 +45,7 @@
     <AndroidLinkTool>r8</AndroidLinkTool>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <MtouchLink>SdkOnly</MtouchLink>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development</CodesignKey>
     <OptimizePNGs>true</OptimizePNGs>
     <EnableSGenConc>true</EnableSGenConc>
   </PropertyGroup>
@@ -57,7 +57,7 @@
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <MtouchLink>SdkOnly</MtouchLink>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>Apple Development</CodesignKey>
     <OptimizePNGs>true</OptimizePNGs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <EnableSGenConc>true</EnableSGenConc>
