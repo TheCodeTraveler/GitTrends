@@ -16,7 +16,7 @@
     <PackageVersion Include="GitHubApiStatus" Version="4.0.0" />
     <PackageVersion Include="GitHubApiStatus.Extensions" Version="4.0.0" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.12.4" />
-    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.10" />
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.9.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="9.0.9" />
     <PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="2.1.0" />
