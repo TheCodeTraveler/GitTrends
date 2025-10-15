@@ -83,7 +83,7 @@ jobs:
         displayName: "Set Xcode Signing Certificate"
         condition: eq(variables['Agent.OS'], 'Darwin') # Only run this step on macOS
         inputs:
-            certSecureFile: 'Certificate.p12'
+            certSecureFile: 'Certificates.p12'
             certPwd: '$(APPLECERTIFICATEPASSWORD)'
 
       - task: InstallAppleProvisioningProfile@1
@@ -148,7 +148,7 @@ jobs:
         displayName: "Set Xcode Signing Certificate"
         condition: eq(variables['Agent.OS'], 'Darwin') # Only run this step on macOS
         inputs:
-            certSecureFile: 'Certificate.p12'
+            certSecureFile: 'Certificates.p12'
             certPwd: '$(APPLECERTIFICATEPASSWORD)'
 
       - task: InstallAppleProvisioningProfile@1
@@ -201,7 +201,7 @@ jobs:
         displayName: "Set Xcode Signing Certificate"
         condition: eq(variables['Agent.OS'], 'Darwin') # Only run this step on macOS
         inputs:
-            certSecureFile: 'Certificate.p12'
+            certSecureFile: 'Certificates.p12'
             certPwd: '$(APPLECERTIFICATEPASSWORD)'
 
       - task: InstallAppleProvisioningProfile@1
