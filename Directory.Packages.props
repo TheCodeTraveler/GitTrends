@@ -27,7 +27,7 @@
     <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.3.6" />
     <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.110" />
     <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
-    <PackageVersion Include="Microsoft.Maui.Essentials" Version="9.0.111" />
+    <PackageVersion Include="Microsoft.Maui.Essentials" Version="9.0.120" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
