@@ -4,7 +4,7 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="AsyncAwaitBestPractices" Version="9.0.0" />
+    <PackageVersion Include="AsyncAwaitBestPractices" Version="10.0.0" />
     <PackageVersion Include="CommunityToolkit.Maui" Version="12.3.0" />
     <PackageVersion Include="CommunityToolkit.Maui.Markup" Version="6.0.1" />
     <PackageVersion Include="CommunityToolkit.Maui.MediaElement" Version="6.1.3" />
